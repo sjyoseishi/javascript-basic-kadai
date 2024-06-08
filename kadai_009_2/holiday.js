@@ -4,3 +4,9 @@ for (let i = 0; i < holidays.length; i++) {
   // 配列の値を出力する
   console.log(holidays[i]);
 }
+
+let i = 0;
+while (i < holidays.length) {
+  console.log(holidays[i]);
+  i++;
+}
