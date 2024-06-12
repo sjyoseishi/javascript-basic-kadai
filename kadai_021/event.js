@@ -5,8 +5,15 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
   //textというidを持つHTML要素を取得し、定数に代入する
   const h2Value = document.getElementById('text');
+
+ // 2秒（2000ミリ秒）の待ち時間を設定し、非同期処理を実行する
+ setTimeout(() => {
   //h2要素に「ボタンをクリックしました」というテキストを追加する
   h2Value.textContent = "ボタンをクリックしました";
   //「ボタンをクリックしました」というテキストを画面に表示する。
   console.log(h2Value);
-}, 2000);
+ }, 2000);
+
+});
+
+
